@@ -5,7 +5,7 @@ OpenAI CLIP
 
 _Feb 2021, ICML_
 
-![](./image.png)
+![](img/image.png)
 
 **Data**: 400M text+img
 
@@ -20,7 +20,7 @@ Google ViT
 
 _Oct 2020, ICML_
 
-![](./image(1).png)
+![](img/image(1).png)
 
 **Data:** 300M images (JFT + ImageNet)
 
@@ -37,7 +37,7 @@ _Jan 2022_
 
 _The paper claims ConvNeXt outperforms ViT and Swin_
 
-![](./image(2).png)
+![](img/image(2).png)
 
 **Model:** [facebook-git](https://github.com/facebookresearch/ConvNeXt), [HuggingFace](https://huggingface.co/docs/transformers/main/en/model_doc/convnext), timm
 
@@ -50,7 +50,7 @@ Microsoft BEiT
 
 _Aug 2022, ICLR_
 
-![](./image(3).png)
+![](img/image(3).png)
 
 **Multi-SotA (BeIT-v3)**
 
@@ -69,7 +69,7 @@ _Aug 2022, ICLR_
 
 _Nov 2021, CVPR (2022)_
 
-![](./image(4).png)
+![](img/image(4).png)
 
 **Data:** ImageNet-22k, fine-tune COCO, ADE20k, etc (downstream tasks)
 
@@ -86,7 +86,7 @@ _Apr 2022, ECCV_
 
 _Hybrid (CNN + ViT) with Grid Attn_
 
-![](./image(5).png)
+![](img/image(5).png)
 
 **Model:** [google-git](https://github.com/google-research/maxvit), timm
 
@@ -99,7 +99,7 @@ Facebook FLAVA
 
 Dec 2021 - Mar 2022, CVPR
 
-![](./image(6).png)
+![](img/image(6).png)
 
 **Multimodal**
 
@@ -142,7 +142,7 @@ _1B params_
 Stable Diffusion
 ----------------
 
-![](./image(7).png)
+![](img/image(7).png)
 
 **SD = CLIP's text Enc. + VAE + UNet** under **diffusions!**
 
@@ -183,8 +183,48 @@ _Aug 2021, ICLR_
 
 **Paper:** [https://arxiv.org/abs/2108.10904](https://arxiv.org/abs/2108.10904)
 
-  
 
+* * *  
+
+# Example queries from models
+
+
+## Stanford-cars
+
+![](output/cars/openai_clip-vit-base-patch32_query.jpg)
+
+![](output/cars/microsoft_beit-large-patch16-224-pt22k_query.jpg)
+
+![](output/cars/facebook_convnext-xlarge-224-22k_query.jpg)
+
+![](output/cars/facebook_flava-full_query.jpg)
+
+## Stanford-products
+---
+
+![](output/products/out/beitv2_large_patch16_224_in22k_query.jpg)
+
+![](output/products/out/beitv2_large_patch16_224_query.jpg)
+
+![](output/products/out/facebook_convnext-large-384_query.jpg)
+
+![](output/products/out/facebook_convnext-xlarge-224-22k_query.jpg)
+
+![](output/products/out/facebook_flava-full_query.jpg)
+
+![](output/products/out/maxvit_large_tf_384.in21k_ft_in1k_query.jpg)
+
+![](output/products/out/microsoft_beit-large-patch16-224-pt22k_query.jpg)
+
+![](output/products/out/microsoft_beit-large-patch16-384_query.jpg)
+
+![](output/products/out/openai_clip-vit-base-patch32_query.jpg)
+
+![](output/products/out/openai_clip-vit-large-patch14_query.jpg)
+
+
+---
+## other models to check:
 * * *
 
 ViLT VQA
