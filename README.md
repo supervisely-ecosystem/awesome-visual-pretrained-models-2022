@@ -188,6 +188,7 @@ _Aug 2021, ICLR_
 
 # Example queries from models
 
+**The most left image is a query. We are trying to find top-5 nearest images from the dataset using models' embedding latent spaces.**
 
 ## Stanford-cars
 
