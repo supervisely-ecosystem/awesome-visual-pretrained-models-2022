@@ -1,4 +1,4 @@
-# General pretrained visual models 2020-2022
+# Awesome visual pretrained models 2020-2022
 
 OpenAI CLIP
 -----------
